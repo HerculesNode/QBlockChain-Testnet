@@ -10,6 +10,9 @@
  * [Explorer](https://explorer.qtestnet.org/)
 ### Faucet:
  * [FAUCET](https://faucet.qtestnet.org/)
+ 
+ ### Faucet:
+ * [Incentivized Guide Medium](https://medium.com/q-blockchain/q-blockchain-validator-onboarding-program-part-1-validator-incentivized-testnet-567ef6e4002e)
 
  * [Hercules Telegram](https://t.me/HerculesNode)
  * [Hercules Twitter](https://twitter.com/Hercules4413)
