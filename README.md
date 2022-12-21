@@ -90,7 +90,7 @@ Path of the secret key file: /data/keystore/UTC--2021-01-18T11-36-28.705754426Z-
 - You must REMEMBER your password! Without the password, it's impossible to decrypt the key!
 ```
 
-## 🟢 installation configuration
+## 🟢 installation configuration  //  .env
 
 ```
 cd
@@ -106,6 +106,31 @@ We fill in the following places in the file.<br>
 <br>
 
 <img src="https://raw.githubusercontent.com/herculessx/Q-Network-Testnet/main/0aa05732-9d25-4a52-a4e1-aae61c6c659c.png" width="650">
+
+
+## 🟢 Editing config.json File   //  .config.json
+
+We enter the file.
+```
+nano config.json
+```
+We organize the following places;
+ - `METAMASK_ADRESI` in this section you write the wallet address given to you above without `0x` at the beginning.
+ - `password` type your password
+ - Finally, save the file by pressing `ctrl x y enter`.
+```
+ {
+      "address": "METAMASK_ADRESS",
+      "password": "YOURPASSWPRD",<br>
+      "keystoreDirectory": "/data",
+      "rpc": "https://rpc.qtestnet.org"
+    }
+```
+
+<br>
+<img src="https://github.com/herculessx/Q-Network-Testnet/blob/main/conf.png" width="650">
+<br>
+
 
 
 
@@ -173,32 +198,6 @@ services:
 volumes:
   testnet-validator-node-data:
 ```
-
-
-
-
-## 🟢 Editing config.json File
-
-We enter the file.
-```
-nano config.json
-```
-We organize the following places;
- - `METAMASK_ADRESI` in this section you write the wallet address given to you above without `0x` at the beginning.
- - `password` type your password
- - Finally, save the file by pressing `ctrl x y enter`.
-```
- {
-      "address": "METAMASK_ADRESS",
-      "password": "YOURPASSWPRD",<br>
-      "keystoreDirectory": "/data",
-      "rpc": "https://rpc.qtestnet.org"
-    }
-```
-
-<br>
-<img src="https://github.com/herculessx/Q-Network-Testnet/blob/main/conf.png" width="650">
-<br>
 
 
 
