@@ -13,8 +13,8 @@
 
  * [Hercules Telegram](https://t.me/HerculesNode)
  * [Hercules Twitter](https://twitter.com/Hercules4413)
- * [QBlockChain Discord Kanalı](https://discord.gg/aYDmNjrsJC)
- * [QBlockChain Twitter Kanalı](https://twitter.com/QBlockchain)
+ * [QBlockChain Discord Channel](https://discord.gg/aYDmNjrsJC)
+ * [QBlockChain Twitter Channel](https://twitter.com/QBlockchain)
 
 
  
