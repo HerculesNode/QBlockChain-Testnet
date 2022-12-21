@@ -1,5 +1,6 @@
 # QBlockChain English Installation Guide
-<h1 align="center"> <img src="https://raw.githubusercontent.com/herculessx/Q-Network-Testnet/main/FhOBhnLXkAkp0Bk.jpg" width="650"></h1>
+![image](https://user-images.githubusercontent.com/101635385/208833565-1465d514-325e-4201-a622-1d83c90b75ea.png)
+
 <h1 align="center"> QBlockChain-Testnet </h1>
 <h1 align="center"> Hello,  QBlockChain-Testnet Incentivized Testnet Installation guide <br> by Hercules
 </h1>
