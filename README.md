@@ -93,14 +93,22 @@ We fill in the following places in the file.<br>
 
 <img src="https://raw.githubusercontent.com/herculessx/Q-Network-Testnet/main/0aa05732-9d25-4a52-a4e1-aae61c6c659c.png" width="650">
 
-## 🟢 Staking Validatore
-
-Remember to ask [faucetten](https://faucet.qtestnet.org/) for a token before doing this. 
 
 
-```
-docker run --rm -v $PWD:/data -v $PWD/config.json:/build/config.json qblockchain/js-interface:testnet validators.js
-```
+
+## 🟢 ITN registration
+
+ Register with the address given to you at the link below. The form will then give you an ITN number. Example: ITN-Hercules -12537 .  Add this number to your docker- compose.yaml file. 
+ 
+ <br> 
+ 
+ ![image](https://user-images.githubusercontent.com/101635385/208832860-0a7d9e3c-2424-4184-89df-07f7f7a514b9.png)
+
+ 
+ * [Ödül Kayıt Linki](https://itn.qdev.li/)
+
+
+
 
 
 ## 🟢 Adding Our Validator to https://stats.qtestnet.org
@@ -111,7 +119,7 @@ nano docker-compose.yaml
 ```
 
 We edit the following section in the file;
-* `YOUR VALIDATOR_NAME` in this section we write our validator name.
+* `YOUR VALIDATOR_ID` in this section we write our validator name.
 
 Copy the code below completely and replace it with the one in the docker-compose.yaml file where only the part that says YOUR VALIDATOR-NAME is changed and save. ctrl + x Yes and save
 
@@ -151,6 +159,47 @@ services:
 volumes:
   testnet-validator-node-data:
 ```
+
+
+
+
+## 🟢 Editing config.json File
+
+We enter the file.
+```
+nano config.json
+```
+We organize the following places;
+ - `METAMASK_ADRESI` in this section you write the wallet address given to you above without `0x` at the beginning.
+ - `password` type your password
+ - Finally, save the file by pressing `ctrl x y enter`.
+```
+ {
+      "address": "METAMASK_ADRESS",
+      "password": "YOURPASSWPRD",<br>
+      "keystoreDirectory": "/data",
+      "rpc": "https://rpc.qtestnet.org"
+    }
+```
+
+<br>
+<img src="https://github.com/herculessx/Q-Network-Testnet/blob/main/conf.png" width="650">
+<br>
+
+
+
+## 🟢 Staking Validatore
+
+Remember to ask [faucetten](https://faucet.qtestnet.org/) for a token before doing this. 
+
+
+```
+docker run --rm -v $PWD:/data -v $PWD/config.json:/build/config.json qblockchain/js-interface:testnet validators.js
+```
+
+
+
+
  
 ## 🟢 Run your node.
 ```
