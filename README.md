@@ -105,7 +105,7 @@ We fill in the following places in the file.<br>
 
 <br>
 
-<img src="https://raw.githubusercontent.com/herculessx/Q-Network-Testnet/main/0aa05732-9d25-4a52-a4e1-aae61c6c659c.png" width="650">
+![image](https://user-images.githubusercontent.com/101635385/208851568-d5db566d-bba1-4916-ac7e-bc66dcff921f.png)
 
 
 ## 🟢 Editing config.json File   //  .config.json
