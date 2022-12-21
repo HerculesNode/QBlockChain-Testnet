@@ -12,7 +12,7 @@
  * [FAUCET](https://faucet.qtestnet.org/)
 
  * [Hercules Telegram](https://t.me/HerculesNode)
- * [Hercules Twittre](https://twitter.com/Hercules4413)
+ * [Hercules Twitter](https://twitter.com/Hercules4413)
  * [QBlockChain Discord Kanalı](https://discord.gg/aYDmNjrsJC)
  * [QBlockChain Twitter Kanalı](https://twitter.com/QBlockchain)
 
