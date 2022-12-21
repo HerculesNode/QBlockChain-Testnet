@@ -144,7 +144,7 @@ We organize the following places;
  ![image](https://user-images.githubusercontent.com/101635385/208832860-0a7d9e3c-2424-4184-89df-07f7f7a514b9.png)
 
  
- * [Ödül Kayıt Linki](https://itn.qdev.li/)
+ * [Reward registration link](https://itn.qdev.li/)
 
 
 
