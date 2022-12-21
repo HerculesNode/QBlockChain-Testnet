@@ -207,7 +207,7 @@ volumes:
 
 ## 🟢 Staking Validatore
 
-Remember to ask [faucetten](https://faucet.qtestnet.org/) for a token before doing this. 
+Remember to ask [FAUCET](https://faucet.qtestnet.org/) for a token before doing this. 
 
 
 ```
