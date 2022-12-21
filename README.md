@@ -1,7 +1,7 @@
 # QBlockChain English Installation Guide
 <h1 align="center"> <img src="https://raw.githubusercontent.com/herculessx/Q-Network-Testnet/main/FhOBhnLXkAkp0Bk.jpg" width="650"></h1>
 <h1 align="center"> QBlockChain-Testnet </h1>
-<h1 align="center"> Hello,  QBlockChain-Testnet Incentivized Testnet Installation guide by Hercules
+<h1 align="center"> Hello,  QBlockChain-Testnet Incentivized Testnet Installation guide <br> by Hercules
 </h1>
 
  ## 🟢 System Requirements
@@ -168,4 +168,33 @@ docker-compose logs -f --tail "100"
 🟢 - synchronized, lots of peers
 🟡 - synchronizing, there are several peers 
 🔴 - not synchronized yet / few peers
+
+
+
+## 🟢 Update
+
+1- Stop Node and Delete Volume
+
+```
+docker-compose down -v
+```
+<br>
+2- Download Latest Configurations
+
+```
+git pull
+```
+<br>
+3- Pulling (and overwriting) the Latest Docker Container
+
+```
+docker-compose pull
+```
+<br>
+
+4- Restart with New Configurations
+```
+docker-compose up -d
+docker-compose logs -f --tail "100"
+```
 
