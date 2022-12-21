@@ -146,6 +146,7 @@ We organize the following places;
  
  * [Reward registration link](https://itn.qdev.li/)
 
+![image](https://user-images.githubusercontent.com/101635385/208845834-18a2339a-cb76-402f-9f88-be711dc8db24.png)
 
 
 
