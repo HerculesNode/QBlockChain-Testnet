@@ -5,6 +5,19 @@
 <h1 align="center"> Hello,  QBlockChain-Testnet Incentivized Testnet Installation guide <br> by Hercules
 </h1>
 
+## 🟢 Link
+### Explorer:
+ * [Explorer](https://explorer.qtestnet.org/)
+### Faucet:
+ * [FAUCET](https://faucet.qtestnet.org/)
+
+ * [Hercules Telegram](https://t.me/HerculesNode)
+ * [Hercules Twittre](https://twitter.com/Hercules4413)
+ * [QBlockChain Discord Kanalı](https://discord.gg/aYDmNjrsJC)
+ * [QBlockChain Twitter Kanalı](https://twitter.com/QBlockchain)
+
+
+ 
  ## 🟢 System Requirements
 
 * 4 CPU <br> 8 GB RAM <br> 250 GB Disk Alanı
@@ -211,6 +224,12 @@ docker-compose up -d
 ```
 docker-compose logs -f --tail "100"
 ```
+
+## 🟢 Looking at Logs
+This is the installation <br>
+Please don't forget to Fork and Like the guide. If you have any questions or concerns, you can find me on Q BlockChain Discord. 
+
+
 
 
 ##  synchronized
