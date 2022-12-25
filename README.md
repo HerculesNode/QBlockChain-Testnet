@@ -269,7 +269,7 @@ docker-compose logs -f --tail "100"
 ```
 
 
-## 🟢 For the nodes stuck at block #3,699,041 
+## 🟢 Error and solution Section ---- For the nodes stuck at block #3,699,041 
 
 Open JS console with:
 docker-compose exec testnet-validator-node geth attach /data/geth.ipc
