@@ -64,11 +64,13 @@ git clone https://gitlab.com/q-dev/testnet-public-tools
 ## 🟢 Creating keystore Folder and pwd.txt File 
 
 With the following command, we create a `keystore` folder in the `testnet-validator` file and a `pwd.txt` file in which we will write our password for our wallet to be given to us and enter this file. We write our password and save it with `ctrl x y enter` and exit.
+<br><br>
+`YOURPASSWORD` Type your password in the field.
 
 ```
 cd testnet-public-tools/testnet-validator/
 mkdir keystore
-echo YOURPASS > keystore/pwd.txt
+echo YOURPASSWORD > keystore/pwd.txt
 ```
 
 ## 🟢 Wallet Creation
