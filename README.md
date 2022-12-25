@@ -68,7 +68,6 @@ With the following command, we create a `keystore` folder in the `testnet-valida
 ```
 cd testnet-public-tools/testnet-validator/
 mkdir keystore
-cd keystore
 echo YOURPASS > keystore/pwd.txt
 ```
 
