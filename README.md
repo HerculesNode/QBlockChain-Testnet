@@ -72,8 +72,10 @@ echo YOURPASS > keystore/pwd.txt
 ```
 
 ## 🟢 Wallet Creation
-<br>
+
 Make sure you are in the `testnet-public-tools/testnet-validator/` directory.
+
+<br>
 
 ```
 docker-compose run --rm --entrypoint "geth account new --datadir=/data --password=/data/keystore/pwd.txt" testnet-validator-node
@@ -95,8 +97,9 @@ Path of the secret key file: /data/keystore/UTC--2021-01-18T11-36-28.705754426Z-
 
 ## 🟢 installation configuration  //  .env
 
-<br>
 Make sure you are in the `testnet-public-tools/testnet-validator/` directory.
+
+<br>
 
 ```
 cp .env.example .env
