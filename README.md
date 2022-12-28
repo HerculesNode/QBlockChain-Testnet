@@ -109,7 +109,7 @@ nano .env
 ```
 We fill in the following places in the file.<br>
  - `ADDRESS` in this section you write the wallet address given to you above without `0x` at the beginning.
- - `IP_ADRESI` you enter the ip address of your server.
+ - `IP` you enter the ip address of your server.
  - Finally, save the file by pressing `ctrl x y enter`.
 
 <br>
