@@ -229,10 +229,15 @@ docker-compose logs -f --tail "100"
 
 ##  synchronized
 
-🟢 - synchronized, lots of peers
-🟡 - synchronizing, there are several peers 
-🔴 - not synchronized yet / few peers
+🟢 - synchronized, lots of peers <br>
+🟡 - synchronizing, there are several peers  <br>
+🔴 - not synchronized yet / few peers <br>
 
+
+<br>
+<br>
+
+* If you have completed the above steps, you do not need to do the Update part.
 
 
 ## 🟢 Update
