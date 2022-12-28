@@ -108,7 +108,7 @@ cp .env.example .env
 nano .env
 ```
 We fill in the following places in the file.<br>
- - `METAMASK_ADRESS` in this section you write the wallet address given to you above without `0x` at the beginning.
+ - `ADDRESS` in this section you write the wallet address given to you above without `0x` at the beginning.
  - `IP_ADRESI` you enter the ip address of your server.
  - Finally, save the file by pressing `ctrl x y enter`.
 
@@ -124,12 +124,12 @@ We enter the file.
 nano config.json
 ```
 We organize the following places;
- - `METAMASK_ADRESI` in this section you write the wallet address given to you above without `0x` at the beginning.
+ - `ADRESS` in this section you write the wallet address given to you above without `0x` at the beginning.
  - `password` type your password
  - Finally, save the file by pressing `ctrl x y enter`.
 ```
  {
-      "address": "METAMASK_ADRESS",
+      "address": "ADRESS",
       "password": "YOURPASSWPRD",<br>
       "keystoreDirectory": "/data",
       "rpc": "https://rpc.qtestnet.org"
