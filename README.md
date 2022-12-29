@@ -136,6 +136,20 @@ We organize the following places;
 
 
 
+## 🟢 Metamask wallet import
+
+Save the file starting with UTC in the keystore folder to your computer. Then open your Matemask wallet and import this file.
+<br>
+You can save your Utc file to your computer using Flezilla, winspc or Mobaxtrem.
+<br>
+
+
+![image](https://user-images.githubusercontent.com/101635385/209914837-0e997494-0e0b-469e-a5d5-2566ba3a9c2e.png)
+
+![image](https://user-images.githubusercontent.com/101635385/209914718-a0531e08-fa14-47d3-ab31-d50f4bba839d.png)
+
+<br>
+
 
 
 ## 🟢 ITN registration
