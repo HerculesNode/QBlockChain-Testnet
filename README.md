@@ -46,6 +46,11 @@ sudo apt-get update && sudo apt install jq && sudo apt install apt-transport-htt
 
 ```
 
+```shell
+chmod +x /usr/local/bin/docker-compose
+
+```
+
 ## 🟢 1. Download and Installation of Q Blockchain Files
 
 ```
