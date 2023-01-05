@@ -316,12 +316,19 @@ docker-compose down -v --remove-orphans && docker-compose up -d
 
 ## 🟢 Steps to move your node to another server.
 
-### 1- With a program like Mobaxtrem or Flezilla, copy the `testnet-validator` folder in the `testnet-public-tools` folder to your computer. 
+### 1-Stop your old server.
+
+```shell
+cd testnet-public-tools/testnet-validator/
+docker-compose down -v
+```
+
+### 2- With a program like Mobaxtrem or Flezilla, copy the `testnet-validator` folder in the `testnet-public-tools` folder to your computer. 
 
 ![image](https://user-images.githubusercontent.com/101635385/210863061-e7273a62-3466-42b7-a3d1-5f5f1df908a9.png)
 
 
-### 2 - Install Testnet on your new server.
+### 3 - Install Testnet on your new server.
 
 
 ```shell
@@ -362,14 +369,14 @@ rm -fr testnet-validator
 cd
 ```
 
-### 3 - Install Testnet on your new server.
+### 4 - Install Testnet on your new server.
 
 Upload the `testnet-validator` folder you backed up to your computer into the `testnet-public-tools` folder.
 
 ![image](https://user-images.githubusercontent.com/101635385/210862575-2edf5a90-ca37-44df-9b88-494c9e1a228a.png)
 
 
-### 4 - Open your `.env` file and replace the ip address of your new server with the old one.
+### 5 - Open your `.env` file and replace the ip address of your new server with the old one.
 
 ```
 cd testnet-public-tools/testnet-validator/
@@ -384,7 +391,7 @@ nano .env
 ![image](https://user-images.githubusercontent.com/101635385/210862182-39af482d-4a09-4231-ae69-e33ebe50badc.png)
 
 
-### 5 - you can now run your node.
+### 6 - you can now run your node.
 
 ```
 docker-compose up -d
