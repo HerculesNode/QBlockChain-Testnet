@@ -313,6 +313,86 @@ docker-compose down -v --remove-orphans && docker-compose up -d
 
 ```
 
+
+## 🟢 Steps to move your node to another server.
+
+### 1- With a program like Mobaxtrem or Flezilla, copy the `testnet-validator` folder in the `testnet-public-tools` folder to your computer. 
+
+![image](https://user-images.githubusercontent.com/101635385/210863061-e7273a62-3466-42b7-a3d1-5f5f1df908a9.png)
+
+
+### 2 - Install Testnet on your new server.
+
+
+```shell
+sudo apt update
+```
+
+```shell
+sudo apt upgrade
+```
+
+```shell
+apt install docker-compose
+```
+
+```shell
+
+sudo apt-get update && sudo apt install jq && sudo apt install apt-transport-https ca-certificates curl software-properties-common -y && curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - && sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable" && sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin && sudo apt-get install docker-compose-plugin
+
+```
+
+
+Download and Installation of Q Blockchain Files
+
+```
+git clone https://gitlab.com/q-dev/testnet-public-tools
+```
+
+
+```
+cd testnet-public-tools
+```
+
+```
+rm -fr testnet-validator
+```
+
+```
+cd
+```
+
+### 3 - Install Testnet on your new server.
+
+Upload the `testnet-validator` folder you backed up to your computer into the `testnet-public-tools` folder.
+
+![image](https://user-images.githubusercontent.com/101635385/210862575-2edf5a90-ca37-44df-9b88-494c9e1a228a.png)
+
+
+### 4 - Open your `.env` file and replace the ip address of your new server with the old one.
+
+```
+cd testnet-public-tools/testnet-validator/
+```
+
+save it after making the change.  Ctrl + X   Yes
+
+```
+nano .env 
+```
+
+![image](https://user-images.githubusercontent.com/101635385/210862182-39af482d-4a09-4231-ae69-e33ebe50badc.png)
+
+
+### 5 - you can now run your node.
+
+```
+docker-compose up -d
+docker-compose logs -f --tail "100"
+```
+
+
+
 ## 🟢 Hercules
 This is the installation <br>
 Please don't forget to Fork and Like the guide. If you have any questions or concerns, you can find me on Q BlockChain Discord. 
