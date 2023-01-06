@@ -323,7 +323,13 @@ cd testnet-public-tools/testnet-validator/
 docker-compose down -v
 ```
 
-### 2- With a program like Mobaxtrem or Flezilla, copy the `testnet-validator` folder in the `testnet-public-tools` folder to your computer. 
+### 2- 
+
+* With a program install Mobaxtrem or Flezilla or Winspc 
+
+* My recommendation Mobaxtrem
+
+* copy the `testnet-validator` folder to your computer. 
 
 ![image](https://user-images.githubusercontent.com/101635385/210863061-e7273a62-3466-42b7-a3d1-5f5f1df908a9.png)
 
