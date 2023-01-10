@@ -54,7 +54,6 @@ chmod +x /usr/local/bin/docker-compose
 ## 🟢 1. Download and Installation of Q Blockchain Files
 
 ```
-screen -S qnetwork
 git clone https://gitlab.com/q-dev/testnet-public-tools
 ```
 
