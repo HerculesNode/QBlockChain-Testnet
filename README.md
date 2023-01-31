@@ -433,9 +433,14 @@ account.toV3(password)
 Run node `export-key-as-json.js <your-private-key> <some-random-password>`
 
 <br>
+
+
 After you run this, check the current working directory to find out that some new JSON file was generated.
 
+![image](https://user-images.githubusercontent.com/101635385/215798950-a6b8511c-b7e0-4985-9bda-bdf9fb30f41b.png)
 
+
+You can now upload this file you created into the `keystore` folder. 
 
 
 
