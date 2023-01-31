@@ -402,7 +402,7 @@ docker-compose logs -f --tail "100"
 
 
 
-### 6 - Wallet creation with private key
+### 7 - Wallet creation with private key
 
 ```
 npm install ethereumjs-wallet
@@ -429,7 +429,7 @@ account.toV3(password)
 
 Run node `export-key-as-json.js <your-private-key> <some-random-password>`
 
-<br><br>
+<br>
 After you run this, check the current working directory to find out that some new JSON file was generated.
 
 
