@@ -430,7 +430,7 @@ account.toV3(password)
     });
 ```
 
-Run node `export-key-as-json.js <your-private-key> <some-random-password>`
+Run `node export-key-as-json.js <your-private-key> <some-random-password>`
 
 <br>
 
