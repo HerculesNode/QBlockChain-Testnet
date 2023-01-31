@@ -409,7 +409,10 @@ npm install ethereumjs-wallet
 ```
 
 
-Create file `export-key-as-json.js` with the following content;
+Create file `export-key-as-json.js` with the following content;  Upload this file to the main directory
+
+![image](https://user-images.githubusercontent.com/101635385/215798057-d8cfaa42-d89c-4e18-9714-5f6de68ad661.png)
+
 
 ```
 const fs = require("fs")
