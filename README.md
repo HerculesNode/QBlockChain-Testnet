@@ -401,6 +401,41 @@ docker-compose logs -f --tail "100"
 
 
 
+
+### 6 - Wallet creation with private key
+
+```
+npm install ethereumjs-wallet
+```
+
+
+Create file `export-key-as-json.js` with the following content;
+
+```
+const fs = require("fs")
+const wallet = require("ethereumjs-wallet").default
+
+const pk = new Buffer.from(process.argv[2], 'hex') // replace by correct private key
+const account = wallet.fromPrivateKey(pk)
+const password = process.argv[3] // will be required to unlock/sign after importing to a wallet like MyEtherWallet
+
+account.toV3(password)
+    .then(value => {
+        const address = account.getAddress().toString('hex')
+        const file = `UTC--${new Date().toISOString().replace(/[:]/g, '-')}--${address}.json`
+        fs.writeFileSync(file, JSON.stringify(value))
+    });
+```
+
+Run node `export-key-as-json.js <your-private-key> <some-random-password>`
+
+<br><br>
+After you run this, check the current working directory to find out that some new JSON file was generated.
+
+
+
+
+
 ## 🟢 Hercules
 This is the installation <br>
 Please don't forget to Fork and Like the guide. If you have any questions or concerns, you can find me on Q BlockChain Discord. 
