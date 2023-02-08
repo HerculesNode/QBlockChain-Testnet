@@ -405,6 +405,10 @@ docker-compose logs -f --tail "100"
 ### 7 - Wallet creation with private key
 
 ```
+apt install npm
+```
+
+```
 npm install ethereumjs-wallet
 ```
 
